@@ -6,54 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        style="@style/HeaderBar"
+        android:layout_width="409dp"
+        android:layout_height="82dp"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        app:theme="@style/ActionBarThemeOverlay" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="218dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
-        android:layout_marginTop="163dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
-        android:layout_marginBottom="520dp"
+        android:layout_width="413dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginBottom="427dp"
         android:text="M1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="183dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginLeft="164dp"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginRight="159dp"
+        android:layout_width="421dp"
+        android:layout_height="176dp"
         android:text="M2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.562" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="191dp"
-        android:layout_height="97dp"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginRight="162dp"
+        android:layout_width="416dp"
+        android:layout_height="157dp"
         android:text="M3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.771" />
-
+        app:layout_constraintVertical_bias="0.834" />
 </androidx.constraintlayout.widget.ConstraintLayout>
